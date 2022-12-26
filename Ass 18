@@ -1,0 +1,14 @@
+Arr=[5,2,8,7,1]
+Temp=0;
+Print("elements of the given array")
+For i in range (0,len(arr)):
+Print(arr[i],end=" ");
+For i in range(0,len(arr)):
+For j in range(j+1,len(arr)): 
+If (arr[i]>arr[j]):
+Temp=arr[i]
+arr[i]=arr[j]
+arr[j]=temp
+Print (" enter the elements in the sequential order")
+For i in range (0,len(arr)):
+Print (arr[i], end =" " )
